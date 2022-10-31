@@ -87,10 +87,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == bot.user:
         return
-    #for i in message.author.activities:
-        #if i.name == "League of Legends":
-            #await message.delete()
-        #print("pog")
     if message.content.lower().startswith('how about a '):
         for key in dict:
             if key in message.content.lower():
