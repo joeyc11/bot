@@ -137,4 +137,4 @@ async def test(ctx, arg):
     print("poggggggggggg")
              
 
-bot.run("ODUwNzU5MDIzMDc4Mjc3MTgx.YLuZFQ.Oyyq3KI14KsVPaaTd46fg8AF_ZI")
+bot.run("")
